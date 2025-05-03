@@ -1,5 +1,60 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
+
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:50px;
+    height:100vh;
+    width:100vh;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+input{
+    margin-top:20px;
+    height:40px;
+    font-size: 20px;
+    padding:10px;
+    cursor:not-allowed;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+button{
+    margin-top:20px;
+    height:40px;
+    font-size: 20px;
+    padding:10px;
+}
+
+#start{
+    background:lightskyblue;
+}
+
+#submit{
+    cursor:not-allowed;
+}

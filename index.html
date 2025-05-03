@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess The Number</title>
+    <link rel="Stylesheet" href="style.css">
+    
 </head>
-<body>
-    <header>Guess The Number</header>
+<hr>
+    <h1>Guess The Number</h1>
+    
     <div class="container">
         <p>Guess the number between 0 to 100</p>
-        <input placeholder="Enter a Number">
+        <input type="number" placeholder="Enter a Number" disabled>
         <div class="buttons">
-            <button>Submit</button>
-            <button>Start Game</button>
+            <button id="submit"  disabled >Submit</button>
+            <button id="start" >Start Game</button>
         </div>
-        <div class="result">
+        <div id="res">
 
         </div>
+        <div id="display">
+
+        </div>
+        <div id="choosenNumber"></div>
         
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
